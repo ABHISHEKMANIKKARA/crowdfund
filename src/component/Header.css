@@ -1,0 +1,73 @@
+.header{
+    background-image: url("https://drive.google.com/uc?export=view&id=1erwssQo1I8JkVKffA8doPs0sj5a1vdFf");
+    height:35vh;
+    width:100vw;
+    position:relative;
+    
+}
+body{
+    background-color:rgb(245, 245, 245);
+    width: 100vw;
+}
+.title{
+    position: absolute;
+    left: 7vw;
+    top:3vh;
+    color:white;
+    font-weight: 600;
+    font-size: medium;
+}
+.section-box{
+    position: absolute;
+    right:11vw;
+    float: left;
+    top:3vh;
+    color: rgb(240, 238, 238);
+}
+li{
+    display:inline;
+    margin-right: 8px;
+}
+ul{
+    list-style-type: none;
+}
+.box1{
+    width:55vw;
+    min-height: 30vh;
+    border-radius: 8px;
+    height:auto;
+    background-color:white;
+    position: relative;
+    top:80%;
+    left:50%;
+    transform:translateX(-50%)
+}
+.master-logo{
+    transform: translateY(-50%);
+    text-align: center;
+}
+.button-backThisProject{
+    background-color: hsl(176, 72%, 28%);
+    border-radius: 20px;
+    color:white;
+    font-size: 0.75rem;
+}
+
+.cardtext{
+    text-align: center;  
+}
+.box1buttons{
+    display:flex;
+    justify-content: space-around;
+}
+.container1{
+    margin-left: 2vw;
+    margin-top: 4vh;
+}
+.button-bookmarked{
+    background-color: rgb(208, 227, 233);
+    border-radius: 20px;
+    color:hsl(176, 72%, 28%);
+    padding: 0px;
+   
+}

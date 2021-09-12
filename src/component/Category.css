@@ -1,0 +1,35 @@
+.typebox{
+    border: 1px solid darkgrey; 
+    margin-top: 1rem;
+ }
+ .boxhead{
+     margin: 1rem;
+    
+ }
+ .boxhead>p{
+     color:hsl(176, 50%, 47%);
+ }
+ .typebox>p{
+     margin-left: 2rem;
+     color:darkgrey;
+ }
+ 
+ .boxfoot{
+     margin: 1.5rem;
+ }
+ .button-select{
+     background-color:hsl(176, 50%, 47%);
+     border-radius: 0.85rem;
+     color:white;
+     font-size: 0.75rem;
+     padding:0.5rem;
+ }
+ h3>span{
+     font-size: 0.90rem;
+     display: inline-block;
+     text-align: center;
+     color:darkgrey;
+ }
+ .button-select:hover{
+     background-color: hsl(176, 72%, 28%);
+ }

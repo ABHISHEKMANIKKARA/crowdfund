@@ -1,0 +1,36 @@
+.box2{
+    width:55vw;
+    border-radius: 8px;
+    height:auto;
+    min-height:30vh;
+    background-color:white;
+    position: relative;
+    top:30vh;
+    left:50%;
+    transform:translateX(-50%)
+}
+.container2{
+    margin-left: 4rem;
+    margin-right: 10vw;
+    padding-top: 4vh;
+}
+
+.backeddetails>div>p{
+    color:darkgray;
+    font-size: 0.8rem;
+}
+.backeddetails>div>h1{
+   
+    font-size: 1.5rem;
+}
+
+.backeddetails div{
+    border-right: 2px solid rgb(201, 200, 200);   
+    padding-right: 0.5rem;
+}
+.progressbar{
+    background-color:hsl(176, 50%, 47%);
+}
+h1{
+    font-size: 2rem;
+}
